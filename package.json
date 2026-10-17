@@ -1,0 +1,22 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "A raw TCP HTTP client talking to a minimal Express server, to learn what HTTP actually is on the wire.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js"
+  },
+  "keywords": [
+    "http",
+    "tcp",
+    "net",
+    "express",
+    "learning"
+  ],
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0",
+    "socket-io": "^1.0.0"
+  }
+}
