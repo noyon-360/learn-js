@@ -4,7 +4,7 @@
   "description": "A raw TCP HTTP client talking to a minimal Express server, to learn what HTTP actually is on the wire.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node init && node server.js",
     "client": "node client.js"
   },
   "keywords": [

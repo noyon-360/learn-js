@@ -6,10 +6,8 @@ node_modules/
 npm-debug.log*
 
 # Environment
-.env
-.env.*
 
 # Editor / OS
-.vscode/
 .idea/
 .DS_Store
+config.bat
